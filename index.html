@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>我的个人网页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>欢迎来到我的网站！</h1>
-    <p>这是我用 GitHub Pages 创建的第一个网页。</p>
+    <header>
+        <div class="container">
+            <h1>我的个人博客</h1>
+            <p>分享技术、生活与感悟</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="post-list">
+            <h2>近期文章</h2>
+            
+            <!-- 博文条目开始 -->
+            <article class="post-item">
+                <span class="post-date">2023-10-27</span>
+                <h3><a href="posts/hello-world.html">第一篇博文：欢迎来到我的网站</a></h3>
+                <p>这是我通过 GitHub Pages 搭建的个人博客，在这里我将分享我的所见所闻...</p>
+            </article>
+            <!-- 博文条目结束 -->
+
+            <!-- 如果以后有新文章，直接复制上面的 article 块并修改即可 -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 我的名字. Powered by GitHub Pages.</p>
+    </footer>
 </body>
 </html>
